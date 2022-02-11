@@ -25,7 +25,6 @@ namespace HomeWork2
         {
 
             base.OnAppearing();
-
             await vm.ChangeInt();
         }
 

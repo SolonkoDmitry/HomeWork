@@ -26,6 +26,15 @@ namespace HomeWork2
         private const string url = "https://jsonplaceholder.typicode.com/comments";
         private HttpClient _Client = new HttpClient();
         private ObservableCollection<Root> _post;
+        public ObservableCollection<Root> _takeposts
+        {
+            get => _post;
+            set
+            {
+                _post = value;
+                OnPropertyChanged();
+            }
+        }
         public event PropertyChangedEventHandler PropertyChanged;
         private Laptop laptop;
         private int _someInt = 123;
@@ -34,9 +43,13 @@ namespace HomeWork2
         {
             var content = await _Client.GetStringAsync(url);
             var root = JsonConvert.DeserializeObject<List<Root>>(content);
-            _post = new ObservableCollection<Root>(root);
+            _takeposts = new ObservableCollection<Root>(root);
             
         }
+        public ICommand LoadData => new Command(async value =>
+        {
+            await Output();
+        });
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

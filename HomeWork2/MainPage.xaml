@@ -2,20 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HomeWork2.MainPage">
+    <ScrollView>
+    <StackLayout BindableLayout.ItemsSource="{Binding _takeposts}">
+    
+        <BindableLayout.ItemTemplate>
+            <DataTemplate>
+                <StackLayout>
+                    <Label TextColor="Black" Text="{Binding name}"/>
+                    <Label  TextColor="Blue" Text="{Binding email}"/>
+                    <Label  TextColor="red" Text="{Binding body}"/>
+                </StackLayout>
+            </DataTemplate>
+        </BindableLayout.ItemTemplate>
 
-    <StackLayout BindableLayout.ItemsSource="{Binding _post}">
-
-        <ListView x:Name="Post_List" >
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding name}" Detail="{Binding body}"></TextCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-
-        </ListView>
+        <Button Text="Загрузить данные" VerticalOptions="CenterAndExpand" Command="{Binding LoadData}"/>
 
         <Label Text="{Binding SomeInt}"
-                   VerticalOptions="CenterAndExpand"
+                   VerticalOptions="EndAndExpand"
                    HorizontalOptions="CenterAndExpand"
                    FontSize="50">
             <Label.GestureRecognizers>
@@ -25,5 +28,5 @@
 
 
     </StackLayout>
-
+    </ScrollView>
 </ContentPage>
