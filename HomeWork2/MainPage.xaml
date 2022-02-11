@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HomeWork2.MainPage">
 
-    <StackLayout>
+    <StackLayout BindableLayout.ItemsSource="{Binding _post}">
 
-        <ListView x:Name="Post_List">
+        <ListView x:Name="Post_List" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding name}" Detail="{Binding body}"></TextCell>
