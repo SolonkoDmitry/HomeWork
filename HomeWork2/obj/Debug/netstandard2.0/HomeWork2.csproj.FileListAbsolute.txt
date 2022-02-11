@@ -1,0 +1,15 @@
+D:\VS TISBI\HomeWork2\HomeWork2\bin\Debug\netstandard2.0\HomeWork2.deps.json
+D:\VS TISBI\HomeWork2\HomeWork2\bin\Debug\netstandard2.0\HomeWork2.dll
+D:\VS TISBI\HomeWork2\HomeWork2\bin\Debug\netstandard2.0\ref\HomeWork2.dll
+D:\VS TISBI\HomeWork2\HomeWork2\bin\Debug\netstandard2.0\HomeWork2.pdb
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\HomeWork2.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\HomeWork2.AssemblyInfoInputs.cache
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\HomeWork2.AssemblyInfo.cs
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\HomeWork2.csproj.CoreCompileInputs.cache
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\XamlC.stamp
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\HomeWork2.dll
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\ref\HomeWork2.dll
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\HomeWork2.pdb
+D:\VS TISBI\HomeWork2\HomeWork2\obj\Debug\netstandard2.0\HomeWork2.csproj.AssemblyReference.cache
